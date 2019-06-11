@@ -1,0 +1,60 @@
+body{
+    background-color: grey;
+    padding:50px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+section#assignment{
+    border: 10px solid #fff;
+    padding:50px;
+}
+
+section + h1{
+    color: green;
+}
+
+div > h1{
+    color: brown;
+}
+
+
+h1 ~ h1{
+    color:orangered;
+}
+
+
+h1 + h2{
+    color: navy;
+    font-family: 'Montez', cursive;
+}
+
+section ~ h3{
+    color: navy;
+}
+
+span ~ span{
+    color: yellow;
+}
+
+span + code{
+    color: violet;
+}
+p ~ p{
+    color:#fff;
+}
+
+section h3{
+    color: gold;
+}
+
+header + div{
+    color: salmon;
+}
+
+section > header{
+    color:red;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+}
+
